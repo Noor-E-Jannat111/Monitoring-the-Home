@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color: hsl(274, 100, 41, 1);
+  --secondary-color: hsl(0, 0%, 100%);
+  --span-color: hsl(48, 100%, 50%);
+  --text-color: hsl(275, 91%, 13%);
+  --heart-color: hsl(49, 100%, 78%);
+  --tags-color: hsla(275, 91%, 13%, 0.15);
+  --testimonial-color: hsl(271, 70%, 60%);
+  --blog-tag-1: hsla(155, 100%, 35%, 0.15);
+  --blog-tag-1-text: hsl(0, 181, 105);
+  --blog-tag-2: hsla(274, 100%, 41%, 0.15);
+  --blog-tag-2-text: hsl(274, 100, 41, 1);
+  --blog-tag-3: hsla(22, 98%, 49%, 0.15);
+  --blog-tag-3-text: hsl(22, 98, 49, 1);
+  --border: 0.5px solid hsl(0, 0%, 69%);
+  --border-radius: 5px;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.span-color {
+  color: var(--span-color);
+}
+
+small {
+  background-color: var(--tags-color);
+}
+
+li {
+  list-style-type: none;
+}
